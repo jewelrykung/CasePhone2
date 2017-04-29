@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">CasePhone</string>
+    <string name="detail">รายละเอียดอื่นๆ</string>
+    <string name="detail2">บัญชีการโอนเงิน</string>
+    <string name="detail3">ธ.กสิกร    25252525   สาขา เซ็นทรัลเวิร์ล กรุงเทพฯ</string>
+    <string name="detail4">ธ.กรุงเทพ   45645645   สาขา เซ็นทรัลเวิร์ล กรุงเทพฯ</string>
+    <string name="detail5">ธ.กรุงไทย   54588484   สาขา เซ็นทรัลเวิร์ล กรุงเทพฯ</string>
+    <string name="detail6">ธ.ไทยพาณิชย์ 54465454   สาขา เซ็นทรัลเวิร์ล กรุงเทพฯ</string>
+    <string name="detail7">วันที่ชำระเงิน: </string>
+    <string name="detail8">จำนวนเงิน</string>
+    <string name="detail9">หลักฐานการโอน</string>
+    <string name="detail10">บาท</string>
 
 </resources>
