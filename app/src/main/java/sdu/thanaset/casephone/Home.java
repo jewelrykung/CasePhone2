@@ -22,4 +22,21 @@ public class Home extends AppCompatActivity {
         Intent intent = new Intent(Home.this,Home.class);
         startActivity(intent);
     }
+    public void highlightbtn (View view){
+        Intent intent = new Intent(Home.this,Highlight.class);
+        startActivity(intent);
+    }
+    public void basketbtn (View view){
+        Intent intent = new Intent(Home.this,Basket.class);
+        startActivity(intent);
+    }
+    public void paybtn (View view){
+        Intent intent = new Intent(Home.this,Pay.class);
+        startActivity(intent);
+    }
+
+    public void btnloginhome (View view){
+        Intent intent = new Intent(Home.this,MainActivity.class);
+        startActivity(intent);
+    }
 }
