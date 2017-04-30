@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name ="title">
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+        <item>huawei P9</item>
+
+
+    </string-array>
+
+    <string-array name="detail">
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+
+
+    </string-array>
+
+
+</resources>

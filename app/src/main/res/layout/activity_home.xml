@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context="sdu.thanaset.casephone.Home">
 
+    <ListView
+        android:id="@+id/liveTraffic"
+        android:layout_width="378dp"
+        android:layout_height="454dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/Highlightbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="15dp" />
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar5"
         android:layout_width="0dp"
@@ -36,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/app_name"
+        android:text="CasePhone"
         android:textColor="@android:color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
@@ -132,17 +148,5 @@
         app:layout_constraintLeft_toRightOf="@+id/Basketbtn"
         app:layout_constraintTop_toTopOf="@+id/toolbar3"
         app:srcCompat="@drawable/f" />
-
-    <ListView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar5"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/Highlightbtn" />
 
 </android.support.constraint.ConstraintLayout>
