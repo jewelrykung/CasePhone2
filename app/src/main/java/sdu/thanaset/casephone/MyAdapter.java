@@ -28,6 +28,7 @@ public class MyAdapter extends BaseAdapter {
         this.ints = ints;
         this.titleStrings = titleStrings;
         this.detailStrings = detailStrings;
+
     }
 
     public MyAdapter(Context highlightt, int[] intss, String[] detailpro) {
@@ -60,10 +61,12 @@ public class MyAdapter extends BaseAdapter {
         ImageView imageView = (ImageView) view.findViewById(R.id.imvIcon);
         TextView titletextView = (TextView) view.findViewById(R.id.txtTitleLiv);
         TextView detailtextView  = (TextView) view.findViewById(R.id.txtDetaiLiv);
+        //ImageView imageView1 = (ImageView) view.findViewById(R.id.imvIcon);
 
         imageView.setImageResource(ints[position]);
         titletextView.setText(titleStrings[position]);
         detailtextView.setText(detailStrings[position]);
+        //imageView1.setImageResource(intss[position]);
 
 
 

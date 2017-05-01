@@ -45,15 +45,25 @@
     </string-array>
 
     <string-array name="detailproduct">
-        <item>รวมเคส Iphone 7 Plus</item>
-        <item>รวมเคส Iphone 6 Plus</item>
-        <item>รวมเคส Iphone 5 </item>
-        <item>รวมเคส Sumsung Note 8</item>
-        <item>รวมเคส Samsung J7</item>
-        <item>รวมเคส Oppo F1 Plus</item>
-        <item>รวมเคส huawei P9</item>
-
+        <item>รวมเคส Iphone7Plus,6 Plus,5</item>
     </string-array>
+
+    <string-array name="detailproduct2">
+        <item>รวมเคส Samsung </item>
+    </string-array>
+
+    <string-array name="detailproduct3">
+        <item>รวมเคส Oppo </item>
+    </string-array>
+
+    <string-array name="detailproduct4">
+        <item>รวมเคส huawei P9</item>
+    </string-array>
+
+
+
+
+
 
     <string-array name="detailproductblank">
         <item> </item>
