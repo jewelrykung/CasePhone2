@@ -13,7 +13,8 @@ public class Home extends AppCompatActivity {
     private int[] ints =new int[]{R.drawable.huaweiaghjk,R.drawable.huaweiahgjk,R.drawable.huaweiahjkgl,R.drawable.huaweiajjf,
                                   R.drawable.huaweiasssdg,R.drawable.huaweiassss,R.drawable.huaweiassss,R.drawable.huaweiasssdg,
                                   R.drawable.huaweiajjf,R.drawable.huaweiahjkgl,R.drawable.huaweiahgjk,R.drawable.huaweiatryu,
-                                  R.drawable.huaweiauti,R.drawable.huaweiauyi,R.drawable.huaweiazxcxvbvjm,R.drawable.huaweiawer,};
+                                  R.drawable.huaweiauti,R.drawable.huaweiauyi,R.drawable.huaweiazxcxvbvjm,R.drawable.huaweiawer,
+    };
 
     private String[] titleStrings, detailStrings,shortStrings;
     @Override
@@ -38,29 +39,29 @@ public class Home extends AppCompatActivity {
     }
 
 
-   // public void searchbnt (View view){
-     //   Intent intent = new Intent(Home.this,Search.class);
-    //    startActivity(intent);
-   // }
-   // public void homebnt (View view){
-    //    Intent intent = new Intent(Home.this,Home.class);
-    //    startActivity(intent);
-    //}
-   // public void highlightbtn (View view){
-    //    Intent intent = new Intent(Home.this,Highlight.class);
-   //     startActivity(intent);
-    //}
-   // public void basketbtn (View view){
-   //     Intent intent = new Intent(Home.this,Basket.class);
-    //    startActivity(intent);
-   // }
-   // public void paybtn (View view){
-   //     Intent intent = new Intent(Home.this,Pay.class);
-   //     startActivity(intent);
-   // }
+   public void searchbnt (View view){
+        Intent intent = new Intent(Home.this,Search.class);
+        startActivity(intent);
+    }
+    public void homebnt (View view){
+        Intent intent = new Intent(Home.this,Home.class);
+        startActivity(intent);
+    }
+    public void highlightbtn (View view){
+        Intent intent = new Intent(Home.this,Highlight.class);
+        startActivity(intent);
+    }
+    public void basketbtn (View view){
+        Intent intent = new Intent(Home.this,Basket.class);
+        startActivity(intent);
+    }
+    public void paybtn (View view){
+        Intent intent = new Intent(Home.this,Pay.class);
+        startActivity(intent);
+    }
 
-  //  public void btnloginhome (View view){
-   //     Intent intent = new Intent(Home.this,MainActivity.class);
-   //     startActivity(intent);
-   // }
+    public void btnloginhome (View view){
+        Intent intent = new Intent(Home.this,MainActivity.class);
+        startActivity(intent);
+    }
 }

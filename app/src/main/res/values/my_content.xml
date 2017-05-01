@@ -17,6 +17,7 @@
         <item>huawei P9</item>
         <item>huawei P9</item>
         <item>huawei P9</item>
+        <item>รวมเคส Iphone 7 Plus</item>
 
 
     </string-array>
@@ -38,7 +39,29 @@
         <item>ราคา 300 บาท</item>
         <item>ราคา 300 บาท</item>
         <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
 
+
+    </string-array>
+
+    <string-array name="detailproduct">
+        <item>รวมเคส Iphone 7 Plus</item>
+        <item>รวมเคส Iphone 6 Plus</item>
+        <item>รวมเคส Iphone 5 </item>
+        <item>รวมเคส Sumsung Note 8</item>
+        <item>รวมเคส Samsung J7</item>
+        <item>รวมเคส Oppo F1 Plus</item>
+        <item>รวมเคส huawei P9</item>
+
+    </string-array>
+
+    <string-array name="detailproductblank">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
 
     </string-array>
 
