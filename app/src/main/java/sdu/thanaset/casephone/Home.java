@@ -25,20 +25,21 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         //Initial view
         listView = (ListView) findViewById(R.id.liveTraffic);
-        //get value
+       // get value
         titleStrings = getResources().getStringArray(R.array.title);
         detailStrings = getResources().getStringArray(R.array.detail);
 
         //Substring detailstring ตัดคำในส่วนของ detailstring เพื่อไม่มีข้อความไม่เกิน30 char
-        // shortStrings = new String[detailStrings.length];//จอง พื้นที่ในหน่วยความจำ shortstring
+         //shortStrings = new String[detailStrings.length];//จอง พื้นที่ในหน่วยความจำ shortstring
         //for (int i=0;i<detailStrings.length;i++){
         //    shortStrings[i]=detailStrings[i].substring(0,29)+"...";
         // }//end for
-        //create listview
+      //  create listview
         MyAdapter myAdapter = new MyAdapter(Home.this,ints,titleStrings,detailStrings);
         listView.setAdapter(myAdapter);
 
     }
+
 
 
    public void searchbnt (View view){

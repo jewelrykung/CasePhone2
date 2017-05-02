@@ -75,5 +75,72 @@
 
     </string-array>
 
+    <string-array name="iphone">
+        <item>Iphone7 Plus</item>
+        <item>Iphone7 Plus</item>
+        <item>Iphone7 Plus</item>
+        <item>Iphone7 Plus</item>
+        <item>Iphone7 Plus</item>
+        <item>Iphone6 Plus</item>
+        <item>Iphone6 Plus</item>
+        <item>Iphone6 Plus</item>
+        <item>Iphone6 Plus</item>
+        <item>Iphone6 Plus</item>
+        <item>Iphone5</item>
+        <item>Iphone5</item>
+        <item>Iphone5</item>
+        <item>Iphone5</item>
+        <item>Iphone5</item>
+
+    </string-array>
+
+    <string-array name="totaliphone">
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+        <item>ราคา 300 บาท</item>
+    </string-array>
+
+    <string-array name="samsung">
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+        <item>Samsung Note8</item>
+    </string-array>
+
+    <string-array name="oppo">
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+        <item>Oppo F1</item>
+
+    </string-array>
+
 
 </resources>

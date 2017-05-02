@@ -9,78 +9,55 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/Highlightbtn"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar5">
+        app:layout_constraintLeft_toLeftOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <ListView
-                android:id="@+id/livproduct"
+            <ImageView
+                android:id="@+id/imageView6"
+                android:onClick="iphoneon"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
+                android:layout_height="150dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/toolbar3"
+                android:layout_marginTop="8dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                tools:layout_editor_absoluteY="360dp" />
+                app:layout_constraintTop_toBottomOf="@+id/toolbar5"
+                app:srcCompat="@drawable/iphone1" />
 
-            <ListView
-                android:id="@+id/livproduct2"
+            <ImageView
+                android:id="@+id/imageView8"
+                android:onClick="samsungon"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/livproduct"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/samsung1" />
 
-            <ListView
-                android:id="@+id/livproduct3"
+            <ImageView
+                android:id="@+id/imageView13"
+                android:onClick="oppoon"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/livproduct"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/oppo1" />
 
-            <ListView
-                android:id="@+id/livproduct4"
+            <ImageView
+                android:id="@+id/imageView14"
+                android:onClick="hueweion"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/livproduct"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
-
-
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/huawei1" />
 
         </LinearLayout>
     </ScrollView>

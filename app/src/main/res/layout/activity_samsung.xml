@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sdu.thanaset.casephone.Home">
-
+    tools:context="sdu.thanaset.casephone.Samsung">
 
     <ListView
-        android:id="@+id/liveTraffic"
+        android:id="@+id/sumsung"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="0dp"
-        android:background="@android:color/transparent"
-        app:layout_constraintBottom_toTopOf="@+id/toolbar3"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/Highlightbtn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
@@ -32,48 +32,30 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/iconppp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="8dp" />
-
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:text="CasePhone"
+        android:layout_marginLeft="8dp"
+        android:text="Sumsung"
         android:textColor="@android:color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/toolbar5"
-        app:layout_constraintLeft_toRightOf="@+id/imageView4"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp" />
 
     <ImageView
-        android:id="@+id/Loginhome"
-        android:layout_width="80dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="btnloginhome"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
-        app:layout_constraintRight_toRightOf="@+id/toolbar5"
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/iconppp"
         app:layout_constraintTop_toTopOf="@+id/toolbar5"
-        app:srcCompat="@drawable/login"
-        android:layout_marginEnd="8dp" />
-
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -137,15 +119,16 @@
         android:layout_marginStart="24dp" />
 
     <ImageView
-        android:id="@+id/Paybtn"
+        android:id="@+id/imageView7"
+        android:onClick="paybtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginStart="24dp"
-        android:onClick="paybtn"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/f"
         app:layout_constraintLeft_toRightOf="@+id/Basketbtn"
+        android:layout_marginLeft="24dp"
         app:layout_constraintTop_toTopOf="@+id/toolbar3"
-        app:srcCompat="@drawable/f" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="24dp" />
+
 
 </android.support.constraint.ConstraintLayout>
